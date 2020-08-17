@@ -1,3 +1,5 @@
+Phase 1
+
 Assignment was coded in Python on Windows using Spyder IDE.
 
 The 'CGMDatenumLunchPat2.csv' and 'CGMSeriesLunchPat2.csv' files should be in the same folder as the python file.
