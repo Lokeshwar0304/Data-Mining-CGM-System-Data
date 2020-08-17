@@ -5,11 +5,11 @@
   * [About the Project](#about-the-project)
     * [Data Set](#data-set)
     * [Built With](#built-with)
-    * [Phase vs Folder](#phase-folder)
+    * [Phase vs Folder](#phase-vs-folder)
   * [Feature Extraction](#feature-extraction)
-  * [Phase 2](#phase2)
-  * [Phase 3](#phase3)
-  * [Phase 4](#phase4)
+  * [Phase 2](#phase-2)
+  * [Phase 3](#phase-3)
+  * [Phase 4](#phase-4)
   * [Learning Outcome](#learning-outcome)
 
 <!-- ABOUT THE PROJECT -->
