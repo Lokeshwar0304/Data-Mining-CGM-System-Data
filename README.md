@@ -76,6 +76,6 @@ Given the test input, the data points can be assigned to its respective cluster 
 The aim of this phase is to determine anomalous events through Association rule mining.  
 Features used in this phase are maximum bolus insulin level, maximum CGM, CGM value during the start of the lunch.  
 Max CGM values and CGM values during lunch were quantized into bins respectively.  
-The goal is to find most frequent itemsets for each feature.
-Extract all the rules, calculate confidence of each observed rule, find rule with the largest confidence for each feature.  
+The goal is to find most frequent itemsets for each feature.  
+Extract all the rules, calculate confidence of each observed rule, find rule with the largest confidence for each feature.    
 The least confidence rules are tagged as anomalous events.  
