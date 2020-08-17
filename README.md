@@ -5,7 +5,7 @@
   * [About the Project](#about-the-project)
     * [Data Set](#data-set)
     * [Built With](#built-with)
-    * [Phase Folder](#phase-folder)
+    * [Phase vs Folder](#phase-folder)
   * [Feature Extraction](#feature-extraction)
   * [Phase 2](#phase2)
   * [Phase 3](#phase3)
@@ -28,7 +28,7 @@ The dataset is a close dataset that consists of following variables which are co
 * Python
 * Spyder
 * Anaconda
-### Phase-Folder
+### Phase vs Folder
 * Phase 1 - Feature Extraction
 * Phase 2 - Classifying meal or no-meal
 * Phase 3 - Meal data clusters
