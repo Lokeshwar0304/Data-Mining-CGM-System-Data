@@ -35,7 +35,7 @@ The dataset is a close dataset that consists of following variables which are co
 * Phase 4 - Anomalous events
 
 ## Feature Extraction
-Multiple time-series features were extracted from the CGM system data by measuring the frequency, magnitude, and fluctuations using statistical analysis techniques.
+Multiple *time-series features* were extracted from the CGM system data by measuring the frequency, magnitude, and fluctuations using statistical analysis techniques.
 Extracted Features:</br>
 * Fast Fourier Transform(Amplitude, Frequency, Phase)
 * Zero Crossings
@@ -47,7 +47,7 @@ Feature matrix is created and PCA was applied to reduce the dimensions of the da
 
 ## Phase 2
 The goal of this phase is to determine whether a person had meal or not. <br/>
-Implemented Adaboost, Random Forest, Gaussian Process Classifier, and SVM using the extracted feature sets, compared using the ROC curve and selected Gaussian Process Classifier (F1 score: 81%). <br/>
+Implemented *Adaboost, Random Forest, Gaussian Process Classifier, and SVM* using the extracted feature sets, compared using the ROC curve and selected Gaussian Process Classifier **(F1 score: 81%)**. <br/>
 Given an input, the model will determine whether the person had meal or not. <br/>
 Below are the F1 scores and accuracy of the implemented classification algorithms.</br>
 
@@ -67,13 +67,13 @@ Added Features:
 * CGM difference, which is the difference between maximum CGM for the day and CGM at 30 minutes.
 * Time difference at which the maximum CGM for the day is observed and 30<br/>
 
-Implemented KMeans and DBScan algorithms to find clusters<br/>
-The silhouette_score for KMeans is : 0.70343</br>
-K-Nearest Neighbours and Bisecting KMeans were used to assign the outliers from the DBScan to its nearest clusters.</br>
+Implemented *KMeans and DBScan* algorithms to find clusters<br/>
+The silhouette_score for KMeans is : **0.70343**</br>
+*K-Nearest Neighbours and Bisecting KMeans* were used to assign the outliers from the DBScan to its nearest clusters.</br>
 Given the test input, the data points can be assigned to its respective cluster using trained KMeans or DBScan model.
 
 ## Phase 4
-The aim of this phase is to determine anomalous events through Association rule mining.  
+The aim of this phase is to determine anomalous events through *Association rule mining*.  
 Features used in this phase are maximum bolus insulin level, maximum CGM, CGM value during the start of the lunch.  
 Max CGM values and CGM values during lunch were quantized into bins respectively.  
 The goal is to find most frequent itemsets for each feature.  
